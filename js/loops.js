@@ -77,3 +77,15 @@ do {
     i++;
 } while (i <= 10);
 
+let persona = {
+    name: 'Luis',
+    lastname: 'Rodriguez'
+}
+
+for(let indice in persona){
+    console.log(indice)
+    console.log(persona[indice])
+}
+
+let a = Object.keys(persona)
+console.log(a)
